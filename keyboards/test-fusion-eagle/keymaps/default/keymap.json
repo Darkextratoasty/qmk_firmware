@@ -1,0 +1,12 @@
+{
+    "keyboard": "test-fusion-eagle",
+    "layout": "LAYOUT",
+    "layers": [
+                [
+                        "LCTL({'id': 'LALT()', 'fields': [{'id': 'KC_S', 'fields': []}]})", "KC_E", "KC_Q", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_C', 'fields': []}]})", "KC_L", "KC_R", "KC_C", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_P', 'fields': []}]})", "KC_D", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_I', 'fields': []}]})", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_R', 'fields': []}]})", "LCTL({'id': 'KC_P', 'fields': []})", "DF(1)"
+                ],
+                [
+                        "LCTL({'id': 'LALT()', 'fields': [{'id': 'KC_L', 'fields': []}]})", "LCTL({'id': 'LALT()', 'fields': [{'id': 'KC_D', 'fields': []}]})", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_R', 'fields': []}]})", "LCTL({'id': 'KC_D', 'fields': []})", "LCTL({'id': 'KC_T', 'fields': []})", "LCTL({'id': 'KC_V', 'fields': []})", "LCTL({'id': 'KC_1', 'fields': []})", "LALT({'id': 'KC_N', 'fields': []})", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_C', 'fields': []}]})", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_N', 'fields': []}]})", "LCTL({'id': 'LSFT()', 'fields': [{'id': 'KC_V', 'fields': []}]})", "LCTL({'id': 'KC_M', 'fields': []})", "DF(0)"
+                ]
+    ]
+}
