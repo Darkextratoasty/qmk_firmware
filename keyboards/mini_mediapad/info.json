@@ -1,6 +1,6 @@
 {
     "manufacturer": "darkextratoasty",
-    "keyboard_name": "3x1_enc_media",
+    "keyboard_name": "mini_mediapad",
     "maintainer": "darkextratoasty",
     "bootloader": "atmel-dfu",
     "diode_direction": "ROW2COL",
