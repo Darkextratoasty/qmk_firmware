@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │ESC│ p │ r │SAc│
      * └───┴───┴───┴───┘
      */
-    [2] = LAYOUT_numpad_5x4(
+    [3] = LAYOUT_numpad_5x4(
         DF(4),              KC_O,               LSFT(LALT(KC_H)),      LCTL(LSFT(KC_P)),
         LSFT(LALT(KC_F)),      LCTL(LSFT(KC_C)),      LSFT(LALT(KC_P)),      LSFT(LALT(KC_M)),
         KC_TAB,             LCTL(LSFT(KC_R)),      KC_L,               LSFT(LALT(KC_E)),
@@ -101,11 +101,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * │PM1│PM2│   │   │ //PMx=playback macro number x
      * └───┴───┴───┴───┘
      */
-    [1] = LAYOUT_numpad_5x4(
+    [4] = LAYOUT_numpad_5x4(
         DF(0),      BL_STEP,        BL_TOGG,        XXXXXXX,
         DB_TOGG,      QK_BOOT,          EE_CLR,          QK_RBT,
         KC_SLEP,      KC_WAKE,          XXXXXXX,          XXXXXXX,
         DM_REC1,      DM_REC2,          DM_RSTP,          XXXXXXX,
         DM_PLY1,    DM_PLY1,          XXXXXXX,        XXXXXXX
-    )
+    ),
 };
