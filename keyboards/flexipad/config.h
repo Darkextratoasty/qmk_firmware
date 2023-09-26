@@ -3,18 +3,10 @@
 
 #pragma once
 
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
-
-/* disable debug print */
-//#define NO_DEBUG
-
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+#define RGBLIGHT_SLEEP /* If defined, the RGB lighting will be switched off when the host goes to sleep */
+#define WS2812_DI_PIN GP26
+#define RGBLED_NUM 14
+#define WS2812_PIO_USE_PIO1
+#define RGBLIGHT_LIMIT_VAL 100
+#define RGBLIGHT_LAYERS
+//#define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_RGB
